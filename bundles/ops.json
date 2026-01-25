@@ -1,0 +1,9 @@
+{
+  "id": "ops",
+  "description": "Operations, testing, and infrastructure tools",
+  "tools": [
+    "mcp-stress-test",
+    "headless-wheel-builder",
+    "comfy-headless"
+  ]
+}

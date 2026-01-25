@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-01-25",
+  "tools": [
+    {
+      "id": "comfy-headless",
+      "name": "Comfy Headless",
+      "description": "Run ComfyUI workflows without the UI — headless execution for automation.",
+      "repo": "https://github.com/mcp-tool-shop/comfy-headless",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/comfy-headless.git",
+        "default_ref": "main"
+      },
+      "tags": ["comfyui", "headless", "automation", "image"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "file-compass",
+      "name": "File Compass",
+      "description": "Deterministic file-system navigation and inspection for large repos.",
+      "repo": "https://github.com/mcp-tool-shop/file-compass",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/file-compass.git",
+        "default_ref": "main"
+      },
+      "tags": ["filesystem", "search", "navigation"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "dev-brain",
+      "name": "Dev Brain",
+      "description": "Orchestration and reasoning control plane for tool-driven agent workflows.",
+      "repo": "https://github.com/mcp-tool-shop/dev-brain",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/dev-brain.git",
+        "default_ref": "main"
+      },
+      "tags": ["orchestration", "agents", "planning"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "tool-compass",
+      "name": "Tool Compass",
+      "description": "Discovery, classification, and ranking utilities for MCP-compatible tools.",
+      "repo": "https://github.com/mcp-tool-shop/tool-compass",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/tool-compass.git",
+        "default_ref": "main"
+      },
+      "tags": ["discovery", "ranking", "catalog"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "backpropagate",
+      "name": "Backpropagate",
+      "description": "Structured feedback loops for improving AI behavior through iteration.",
+      "repo": "https://github.com/mcp-tool-shop/backpropagate",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/backpropagate.git",
+        "default_ref": "main"
+      },
+      "tags": ["evaluation", "feedback", "iteration"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "integradio",
+      "name": "Integradio",
+      "description": "Structure layer for building maintainable Gradio apps (UI + execution separation).",
+      "repo": "https://github.com/mcp-tool-shop/integradio",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/integradio.git",
+        "default_ref": "main"
+      },
+      "tags": ["gradio", "ui", "framework"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "mcp-stress-test",
+      "name": "MCP Stress Test",
+      "description": "Load and stress testing utilities for MCP servers and tool ecosystems.",
+      "repo": "https://github.com/mcp-tool-shop/mcp-stress-test",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/mcp-stress-test.git",
+        "default_ref": "main"
+      },
+      "tags": ["performance", "load-testing", "concurrency"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "voice-soundboard",
+      "name": "Voice Soundboard",
+      "description": "Voice tooling repository (project-specific).",
+      "repo": "https://github.com/mcp-tool-shop/voice-soundboard",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/voice-soundboard.git",
+        "default_ref": "main"
+      },
+      "tags": ["tts", "audio", "voice"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "headless-wheel-builder",
+      "name": "Headless Wheel Builder",
+      "description": "CLI-first build/validate/release tooling for Python wheels and sdists.",
+      "repo": "https://github.com/mcp-tool-shop/headless-wheel-builder",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/headless-wheel-builder.git",
+        "default_ref": "main"
+      },
+      "tags": ["python", "packaging", "wheels", "release"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "tool-scan",
+      "name": "Tool Scan",
+      "description": "Static inspection utilities for MCP tools and repositories.",
+      "repo": "https://github.com/mcp-tool-shop/tool-scan",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/tool-scan.git",
+        "default_ref": "main"
+      },
+      "tags": ["static-analysis", "security", "inspection"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "claude-collaborate",
+      "name": "Claude Collaborate",
+      "description": "Collaboration primitives for multi-agent and human-in-the-loop Claude workflows.",
+      "repo": "https://github.com/mcp-tool-shop/claude-collaborate",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/claude-collaborate.git",
+        "default_ref": "main"
+      },
+      "tags": ["claude", "agents", "collaboration"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "aspire-ai",
+      "name": "Aspire AI",
+      "description": "Goal-oriented framework for running and evaluating AI workflows over time.",
+      "repo": "https://github.com/mcp-tool-shop/aspire-ai",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/aspire-ai.git",
+        "default_ref": "main"
+      },
+      "tags": ["evaluation", "experimentation", "metrics"],
+      "defaults": {
+        "safe_run": true
+      }
+    },
+    {
+      "id": "context-window-manager",
+      "name": "Context Window Manager",
+      "description": "Deterministic tools for shaping and allocating LLM context windows.",
+      "repo": "https://github.com/mcp-tool-shop/context-window-manager",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/mcp-tool-shop/context-window-manager.git",
+        "default_ref": "main"
+      },
+      "tags": ["context", "tokens", "rag", "memory"],
+      "defaults": {
+        "safe_run": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "agents",
+  "description": "Full agent stack: orchestration, navigation, context, and tool selection",
+  "tools": [
+    "dev-brain",
+    "claude-collaborate",
+    "tool-compass",
+    "file-compass",
+    "context-window-manager"
+  ]
+}

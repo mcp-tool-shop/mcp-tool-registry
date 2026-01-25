@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MCP Tool Registry",
+  "type": "object",
+  "required": ["schema_version", "tools"],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "repo", "install", "tags"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "repo": {
+            "type": "string",
+            "format": "uri"
+          },
+          "install": {
+            "type": "object",
+            "required": ["type", "url", "default_ref"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["git"]
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "default_ref": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "defaults": {
+            "type": "object",
+            "properties": {
+              "safe_run": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

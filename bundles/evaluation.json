@@ -1,0 +1,9 @@
+{
+  "id": "evaluation",
+  "description": "Feedback loops, metrics, and AI workflow evaluation",
+  "tools": [
+    "backpropagate",
+    "aspire-ai",
+    "mcp-stress-test"
+  ]
+}
