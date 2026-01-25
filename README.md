@@ -2,6 +2,19 @@
 
 Metadata-only registry for MCP Tool Shop tools.
 
+## Getting Started
+
+```bash
+# View available tags
+git tag -l
+
+# Validate schema locally
+npx ajv validate -s schema/registry.schema.json -d registry.json
+
+# Use with mcpt CLI (pin to a release)
+mcpt init --registry-ref v0.1.0
+```
+
 ## Structure
 
 ```
