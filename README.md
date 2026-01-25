@@ -8,7 +8,7 @@ Metadata-only registry for MCP Tool Shop tools.
 - **CLI** ([mcpt](https://github.com/mcp-tool-shop/mcpt)) → how you consume them
 - **Examples** ([mcp-examples](https://github.com/mcp-tool-shop/mcp-examples)) → how you learn the model
 - **Tags** (v0.1.0, v0.2.0) → stability, reproducibility
-- **main** → development only, not for production
+- **main** → development only; may change without notice; builds may break
 - **Tools default to least privilege** → no network, no writes, no side effects
 - **Capability is always explicit and opt-in** → you decide when to enable
 
@@ -72,3 +72,12 @@ Bundles are curated collections of tools:
 ## Validation
 
 The registry is validated on every PR/push via GitHub Actions.
+
+## What Does Pinning Mean?
+
+When you set `ref: v0.1.0` in your `mcp.yaml`, you're pinning the **registry metadata**, not the tool code itself.
+
+- **Registry ref** → which version of `registry.json` you read (tool IDs, descriptions, install URLs)
+- **Tool ref** → each tool has its own `default_ref` in the registry (usually `main` or a tag)
+
+To pin a specific tool version, use `mcpt add tool-id --ref v1.0.0` in your workspace.
